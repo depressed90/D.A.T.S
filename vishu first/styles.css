@@ -1,0 +1,96 @@
+/* Anime Merch Link Hub Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  height: 100%;
+  overflow: hidden;
+  background-color: #5e0b0b;
+}
+
+.anime-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('https://wallpapercave.com/wp/wp9151543.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(63, 56, 56, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 480px;
+  padding: 30px;
+  background: rgba(58, 51, 51, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid #ffb6c1;
+}
+
+.brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #5e0b0b  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 1rem;
+  color: #110d0d;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.buttons .btn {
+  display: block;
+  background-color: #640f0f;
+  color: rgba(107, 57, 57, 0.904);
+  padding: 12px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.buttons .btn:hover {
+  background-color: #ff1493;
+}
+
+.socials {
+  margin-top: 25px;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #44032c;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #44032c;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: #999;
+}
